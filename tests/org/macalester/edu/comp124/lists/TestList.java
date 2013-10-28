@@ -1,14 +1,13 @@
 package org.macalester.edu.comp124.lists;
 
 
-import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class TestList {
 	/* Declare a list of Strings here named list */
-	MyLinkedList<String> list = new MyLinkedList<String>();	
+	MyArrayList<String> list = new MyArrayList<String>();
 
 	public void prepareList() {
 		list.clear();
