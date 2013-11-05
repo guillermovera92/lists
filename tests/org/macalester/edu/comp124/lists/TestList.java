@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestList {
 	/* Declare a list of Strings here named list */
-	MyArrayList<String> list = new MyArrayList<String>();
+	MyLinkedList<String> list = new MyLinkedList<String>();
 
 	public void prepareList() {
 		list.clear();
